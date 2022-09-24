@@ -1,0 +1,64 @@
+body {
+    margin: 2rem 0 0 18rem;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background: black;
+    color: white;
+}
+
+header {
+    padding: 2rem 1rem;
+}
+
+.main {
+    align-items: center;
+    overflow-x: hidden;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: 2px solid greenyellow;
+    width: 900px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.center-heading {
+    color: blue;
+    text-align: center;
+}
+
+.myTextBox,
+.mySearchBox {
+    text-align: center;
+    font-size: medium;
+    margin-left: 100px;
+    margin-top: 20px;
+    height: 40px;
+    width: 400px;
+}
+
+.searchBtn,
+.add-btn,
+.edit,
+.delete {
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    margin: 2px;
+}
+
+.task {
+    text-align: center;
+    color: greenyellow;
+    font-size: 18px;
+}
+
+.text {
+    width: 600px;
+    height: 30px;
+    margin-top: 2vh;
+}
+
+.hide {
+    display: none;
+}
